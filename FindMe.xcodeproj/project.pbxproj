@@ -15,6 +15,7 @@
 		01ADEF0F15AA360E004012C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ADEF0E15AA360E004012C0 /* AppDelegate.m */; };
 		01ADEF1215AA360E004012C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01ADEF1015AA360E004012C0 /* MainStoryboard.storyboard */; };
 		01ADEF1515AA360E004012C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ADEF1415AA360E004012C0 /* ViewController.m */; };
+		01ADEF1C15AA3629004012C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ADEF1B15AA3629004012C0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		01ADEEFE15AA360E004012C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01ADEF0015AA360E004012C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01ADEF0215AA360E004012C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		01ADEF0615AA360E004012C0 /* FindMe-Info.plist */ = {isa = PBXFileReference; path = "FindMe-Info.plist"; sourceTree = "<group>"; };
+		01ADEF0615AA360E004012C0 /* FindMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindMe-Info.plist"; sourceTree = "<group>"; };
 		01ADEF0815AA360E004012C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01ADEF0A15AA360E004012C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		01ADEF0C15AA360E004012C0 /* FindMe-Prefix.pch */ = {isa = PBXFileReference; path = "FindMe-Prefix.pch"; sourceTree = "<group>"; };
-		01ADEF0D15AA360E004012C0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		01ADEF0C15AA360E004012C0 /* FindMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindMe-Prefix.pch"; sourceTree = "<group>"; };
+		01ADEF0D15AA360E004012C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01ADEF0E15AA360E004012C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01ADEF1115AA360E004012C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		01ADEF1315AA360E004012C0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		01ADEF1315AA360E004012C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01ADEF1415AA360E004012C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01ADEF1B15AA3629004012C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ADEF1C15AA3629004012C0 /* MapKit.framework in Frameworks */,
 				01ADEEFF15AA360E004012C0 /* UIKit.framework in Frameworks */,
 				01ADEF0115AA360E004012C0 /* Foundation.framework in Frameworks */,
 				01ADEF0315AA360E004012C0 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +53,7 @@
 		01ADEEEF15AA360E004012C0 = {
 			isa = PBXGroup;
 			children = (
+				01ADEF1B15AA3629004012C0 /* MapKit.framework */,
 				01ADEF0415AA360E004012C0 /* FindMe */,
 				01ADEEFD15AA360E004012C0 /* Frameworks */,
 				01ADEEFB15AA360E004012C0 /* Products */,

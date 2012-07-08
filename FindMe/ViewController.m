@@ -14,10 +14,19 @@
 
 @implementation ViewController
 
+@synthesize mapView = _mapView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self.mapView setShowsUserLocation:YES];
+}
+
+-(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
+{
+    CLLocationCoordinate2D newLocation = [userLocation coordinate];
+    MKCoordinateRegion zoomRegion = MKCoordinateRegionMakeWithDistance(newLocation, 1500, 1500);
+    [self.mapView setRegion:zoomRegion animated:YES];
 }
 
 - (void)viewDidUnload
